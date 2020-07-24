@@ -1,4 +1,5 @@
 # dotnet-game
+My first steps with Web API
 
 RPG Game .NET Core 3.1 Web API & Entity Framework
 
