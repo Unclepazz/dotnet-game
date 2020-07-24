@@ -2,7 +2,7 @@ using dotnet_game.Models;
 using Microsoft.EntityFrameworkCore;
 
 
-namespace dotnet_game.DataContext
+namespace dotnet_game.Data.DataContext
 {
     public class DataContext : DbContext
     {

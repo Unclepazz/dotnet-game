@@ -4,12 +4,12 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using dotnet_game.DataContext;
+using dotnet_game.Data.DataContext;
 
 namespace dotnet_game.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20200724181320_InitialCreate")]
+    [Migration("20200724183340_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
