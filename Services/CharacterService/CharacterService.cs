@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
-using dotnet_game.Data.DataContext;
+using dotnet_game.Data;
 using dotnet_game.Dtos.Character;
 using dotnet_game.Models;
 using Microsoft.EntityFrameworkCore;
