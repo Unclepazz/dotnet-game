@@ -76,3 +76,11 @@ C:\VSRepos\dotnet-game\obj\Debug\netcoreapp3.1\dotnet-game.csproj.CopyComplete
 C:\VSRepos\dotnet-game\obj\Debug\netcoreapp3.1\staticwebassets\dotnet-game.StaticWebAssets.Manifest.cache
 C:\VSRepos\dotnet-game\obj\Debug\netcoreapp3.1\staticwebassets\dotnet-game.StaticWebAssets.xml
 C:\VSRepos\dotnet-game\obj\Debug\netcoreapp3.1\dotnet-game.genruntimeconfig.cache
+C:\VSRepos\dotnet-game\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\VSRepos\dotnet-game\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\VSRepos\dotnet-game\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\VSRepos\dotnet-game\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\VSRepos\dotnet-game\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\VSRepos\dotnet-game\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\VSRepos\dotnet-game\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\VSRepos\dotnet-game\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
