@@ -4,13 +4,23 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using dotnet_game.Dtos.Character;
+using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 
 namespace dotnet_game.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("[controller]")]
     public class CharacterController : ControllerBase
     {
+        private readonly ICharacterService _characterService;
+        public CharacterController(ICharacterService characterService)
+        {
+            _characterService = characterService;
+
+        }
+       
         private static List<Character> characters = new List<Character> {
             new Character(),
             new Character {Id = 1, Name = "Sam"}
@@ -21,7 +31,6 @@ namespace dotnet_game.Controllers
         {
             return Ok(await _characterService.GetAllCharacters());
         }
-
         [HttpGet("{id}")]
         public async Task<IActionResult> GetSingle(int id)
         {
@@ -54,11 +63,6 @@ namespace dotnet_game.Controllers
 
             return Ok(response);
         }
-        private readonly ICharacterService _characterService;
-        public CharacterController(ICharacterService characterService)
-        {
-            _characterService = characterService;
-
-        }
+        
     }
 }
